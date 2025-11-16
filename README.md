@@ -8,8 +8,8 @@ Debes Crear una base de datos llamada **"zona_fit_db"** en el archivo llamado **
 
 La base de datos tendra una tabla llamada "clientes" con los siguientes campos.
 
-```
-CREATE TABLE cliente (
+```MySql
+CREATE TABLE clientes (
     id INT(20) NOT NULL AUTO_INCREMENT,
     nombre VARCHAR(50) NOT NULL,
     apellido VARCHAR(50) NOT NULL,
